@@ -13,7 +13,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://guess-what-client.onrender.com",
+    origin: ["http://localhost:5173", "https://guess-what-client.onrender.com"],
     credentials: true,
   })
 );
